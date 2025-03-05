@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9C8811602D6F2DE000B25152 /* SwiftUIView_Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C88115F2D6F2DE000B25152 /* SwiftUIView_Task1.swift */; };
+		9C8811622D6F328E00B25152 /* SwiftUIView_Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8811612D6F328E00B25152 /* SwiftUIView_Task2.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		9C47C2FC2D6653CC00A4FCA5 /* SwiftTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C88115F2D6F2DE000B25152 /* SwiftUIView_Task1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView_Task1.swift; sourceTree = "<group>"; };
+		9C8811612D6F328E00B25152 /* SwiftUIView_Task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView_Task2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		9C47C2F32D6653CC00A4FCA5 = {
 			isa = PBXGroup;
 			children = (
+				9C8811612D6F328E00B25152 /* SwiftUIView_Task2.swift */,
+				9C88115F2D6F2DE000B25152 /* SwiftUIView_Task1.swift */,
 				9C47C2FE2D6653CC00A4FCA5 /* SwiftTestApp */,
 				9C47C2FD2D6653CC00A4FCA5 /* Products */,
 			);
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8811622D6F328E00B25152 /* SwiftUIView_Task2.swift in Sources */,
+				9C8811602D6F2DE000B25152 /* SwiftUIView_Task1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
